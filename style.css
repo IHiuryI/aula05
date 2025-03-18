@@ -1,0 +1,61 @@
+* {
+  background-color: azure;
+}
+
+#primeirotitulo {
+}
+h1,
+h2,
+h3 {
+  color: blue;
+}
+div#static {
+  border: 2px solid red;
+  height: 20px;
+  width: 20px;
+}
+div#relative {
+  border: 2px solid red;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  left: 100px;
+}
+div#fixed {
+  border: 2px solid red;
+  height: 20px;
+  width: 1000px;
+  position: fixed;
+  top: 0;
+  background-color: violet;
+}
+div#sticky {
+  position: sticky;
+  bottom: 0;
+  border: 2px solid red;
+  background-color: greenyellow;
+  height: 20px;
+  width: 1000px;
+}
+div#pai {
+  border: 2px solid red;
+  height: 50px;
+  width: 50px;
+  position: relative;
+  box-shadow: 2px 2px 2px black;
+}
+div#filho {
+  border: 2px solid#120a8f;
+  height: 20px;
+  width: 20px;
+  left: 100px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: none;
+  box-shadow: 2px 2px 2px black;
+}
+div#pai:hover div#filho {
+    display: block;
+}
+

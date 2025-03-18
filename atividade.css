@@ -1,0 +1,22 @@
+body {
+    background-color: deepskyblue;
+}
+#imgHeader {
+    border: 1px solid black;
+    height: 200px;
+    width: 100%;
+    background:url(imagens/pexels-nikolaos-dimou-1250289.jpg) no-repeat center center/cover;
+    line-height: 150px;
+}
+#conteudo {  
+    background-color: white;
+    height: 700px;
+    width: 90%;
+    margin: auto;
+}
+#texto {
+    border: 1px solid red;
+    height: 500px;
+    width: 90%;
+    margin: auto;
+}
